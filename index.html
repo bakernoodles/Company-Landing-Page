@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BoardBuilder.com</title>
+    <meta name="description" content="Form-Project">
+    <meta name="author" content="Christopher Yniguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="borders">
+        <h1 id="title">Board-Builder<span id="subTitle">.com</span>
+            <img src="images/Skateboard-Logo-Vector.png" alt="logo" class="logo" id="header-img"></h1>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#aboutus">About</a>
+            <a class="nav-link" href="#boardsSection">Boards</a>
+            <a class="nav-link" href='#signupSection'>Sign Up</a>
+        </nav>
+    </header>
+    <main id="wrapper" class="">
+        <!--About Section-->
+        <section id="aboutus" class="sectionRow">
+            <h2 class="secTitle">About Us</h2>
+            <p class="txt" id="description"> We are a Southern California skateboarding company specialized in producing uniquely printed Skateboarding
+                Decks
+            </p>
+            <img class="aboutImages whiteShadows " src="./images/skatePrint.jpg" alt="Skateboard Printer image">
+            <p class="txt">Give us the image you want printed on your board and we'll create it using the highest quality woods and paint!
+            </p>
+            <iframe id="video" class="whiteShadows"
+                src="https://www.youtube.com/embed/ui1ZH6keYQM" 
+                allow="accelerometer; encrypted-media; gyroscope" 
+                allowfullscreen>
+            </iframe>
+        </section>
+        <!--Board Section-->
+        <section class="sectionRow" id="boardsSection">
+            <h2 class="secTitle">Boards</h2>
+            <div class="boardDisplay">
+                <div class="whiteShadows boards">
+                    <h3>One Custom Board</h3>
+                    <img src="cherryBlossumBoard-2.png" alt="One skateboard deck">
+                    <ul>
+                        <li class="boardTxt">$59.99 <span style="font-size: 10px;">+shipping</span></li>
+                    </ul>
+                    <button class="selectBtns">Select</button>
+                </div>
+                <div class="boards whiteShadows">
+                    <h3>Two Custom Boards</h3>
+                    <img src="doubleBoardspng.png" alt="two skateboard decks">
+                    <ul>
+                        <li class="boardTxt">$109.00<span style="font-size: 10px;">+shipping</span> </li>
+                    </ul>
+                    <button class="selectBtns">Select</button>
+                </div>
+                <div class="boards whiteShadows">
+                    <h3>Three Or More</h3>
+                    <img src="threeBoards.png" alt="Three skateboard decks">
+                    <ul>
+                        <li class="boardTxt">$52.00 each <span style="font-size: 10px;">+shipping</span></li>
+                    </ul>
+                    <button class="selectBtns">Select</button>
+                </div>
+            </div>
+        </section>
+        <!--Signup Section-->
+        <section class="sectionRow" id="signupSection">
+            <h2 class="secTitle">Sign Up</h2>
+            <p class="txt" style="text-align: center;">Get updates on future products!</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h3 class="txt" style="letter-spacing: 5px;" >Deals Coming Soon!</h3>
+                <div class="lblWrapper">
+                    <label>Name</label>
+                    <input id="name" type="text" placeholder="Enter first Name" style="width: 70%;" required>
+                </div>
+                <div class="lblWrapper">
+                    <label>Email</label>
+                    <input id="email" type="email" name="email" required placeholder="Enter Email" style="width: 70%;">
+                </div>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Partners</a></li>
+        </ul>
+        <p>Copyright 2019, Board-Builder</p>
+    </footer>
+</body>
+</html>

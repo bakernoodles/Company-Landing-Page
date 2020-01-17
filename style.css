@@ -1,0 +1,390 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+
+    background-color: #e5ecec;
+    background-image: url("./images/grindingShopped.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 270px;
+    background-color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0px;
+    font-family:'Dosis', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #024447;
+    padding:4px;
+    padding-right: 40px;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    flex-wrap: wrap;
+    min-width: 210px;
+    box-sizing: border-box;
+}
+a, li, ul{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    background-color: rgba(0, 128, 128, 0.171);
+    border-radius: 3px;
+    padding: 0px 8px;
+    margin: 3px 0px;
+}
+footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    text-align: right;
+    min-width: 210px;
+    margin-top: 100px;
+    padding: 9px 15px;
+}
+
+nav{
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    justify-content: space-between;
+    width: 700px;
+    min-width: 450px;
+}
+main{
+    display: flex;
+    margin: auto auto;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 210px;
+}
+img{
+    width: 100%;
+}
+.fa{
+    font-size: 33px!important;
+    margin-right: 12%;
+}
+.noPadding{
+    padding: 0px;
+}
+.whiteShadows{
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(255,255,255,0.10);
+    -moz-box-shadow: 0px 0px 34px 4px rgba(255,255,255,0.10);
+    box-shadow: 0px 0px 34px 4px rgba(255, 255, 255, 0.041);
+}
+#wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #f6f1f1a2;
+    box-sizing: border-box;
+    min-width: 210px;
+}
+
+.sectionRow{
+    text-align: center;
+    padding: 105px 10% 5px 10%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.89);
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    
+ }
+ 
+.aboutImages{
+    align-self: center;
+    width: 70%;
+    border-radius: 3px;
+}
+.txt, h3{
+    font-size: 19px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.9em;
+    margin: 30px 15%;
+    text-align: justify;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+h3{
+    margin: 10px 0px;
+}
+.secTitle{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Great Vibes', monospace, 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 6px;
+}
+
+.nav-link:hover, .selectBtns:hover, #submit:hover {
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-1px);
+}
+.nav-link:active, .selectBtns:active, #submit:active{
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+    background-color: #6ba9aa;
+}
+.nav-link:focus, #submit:focus{
+    outline: none;
+}
+.nav-link{
+    user-select: none;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin: 2px 4px;
+    padding: 2px;
+    background-color: #357376;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family:'Dosis', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    height: 29px;
+    font-size: 19px;
+}
+.borders{
+    border-bottom: 1px solid rgba(0,0,0,0.75);
+}
+#title{
+    color: white;
+    margin: auto 10px;
+    letter-spacing: 9px;
+    font-size: 35px ;
+    font-family: 'Great Vibes', cursive;
+    user-select: none;
+}
+#video{
+    width: 70%;
+    height: 400px;
+    border: none;
+}
+.shadows{
+    -webkit-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
+}
+#subTitle{
+    font-size: 12px;
+}
+.logo{
+    position: fixed;
+    width: 45px;
+    border-radius: 50%;
+    height: 45px;
+    z-index: -1;
+    
+}
+#boardsSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.boards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(2, 67, 71, 0.548);
+    width: 350px;
+    padding: 14px;
+    margin: 4px;
+    border-radius: 3px;
+    
+}
+.boardTxt{
+    background-color: transparent;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    padding: 2px 0px;
+    font-size: 15px;
+}
+.selectBtns{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(53, 115, 118, 0);
+    border-radius: 3px;
+    width: 70%;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+}
+.boardDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#signupSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#form{
+    background-color: rgba(2, 67, 71, 0.5);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 460px;
+    margin: 30px auto;
+    letter-spacing: 5px;
+}
+.lblWrapper{
+    display:flex; 
+    flex-direction: row; 
+    width: 100%; 
+    justify-content: space-evenly; 
+    padding: 5px 8px 5px 4px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+#submit{
+    width:70%;
+    margin: 50px 10%;
+    background-color: #470244;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+@media screen and (max-width:1130px){
+    nav{
+        width: 100%;
+    }
+    header{
+        padding-right: 3px;
+    }
+    .secTitle{
+        margin-bottom: 90px;
+    }
+    footer{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:1024px){
+    .sectionRow{
+        padding: 105px 3% 5px 3%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #title{
+        font-size: 24px;
+        margin: 4px 5px;
+        margin-bottom: 1px;
+    }
+    #boardsSection{
+        padding: 0px;
+    }
+    #aboutus{
+        padding: 10px;
+    }
+    #signupSection{
+    padding-top: 0px;
+    
+}
+    nav{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+        margin: 3px;
+        min-width: 210px;
+    }
+    .sectionRow{
+        padding: 85px 0px 0px 0px;
+        text-align: left;
+    }
+    .secTitle{
+       margin: 70px 0px;
+    }
+    .aboutImages{
+        width: 100%;
+    }
+    .txt{
+        font-size: 18px;
+        line-height: 1.8em;
+        margin: 30px 3px;
+    }
+    
+    .nav-link{
+        padding: 5px 0px;
+        width:30%;
+        margin: 0px;
+    }
+    .boards{
+        width: 100%;
+        margin: 1px;
+        box-shadow: 0px 0px 34px 1px rgba(0, 0, 0, 0.363);
+    }
+    #video{
+        width: 100%;
+        height: 300px; 
+    }
+    .logo{
+        display: none;
+        top: -5px;
+    }
+    
+    
+}
+@media screen and (max-width: 340px){
+    #title{
+        font-size: 19px;
+        letter-spacing: 3px;
+    }
+    .txt{
+        font-size: 16px;
+    }
+    .secTitle{
+        font-size: 34px;
+    }
+   
+    .nav-link{
+       height: 17px;
+       margin: 3px 1px;
+       width: 31%;
+       font-size: 11px;
+       font-weight: bold;
+   }
+}
